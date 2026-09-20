@@ -3,6 +3,6 @@ package transport;
 public class Truck implements Transport {
     @Override
     public void deliver(String cargo, String destination) {
-        System.out.println("Delivering " + cargo + " to " + destination);
+        System.out.println("Truck delivering " + cargo + " to " + destination);
     }
 }
